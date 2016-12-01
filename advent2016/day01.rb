@@ -1,4 +1,4 @@
-f=File.open("C:\\Users\\c41663\\Documents\\programming\\githome\\AdventOfCode\\advent2016\\input01.txt")
+f=File.open(ARGV[0])
 directions=f.read
 compass='NESW'
 x,y,f=0,0,'N'
