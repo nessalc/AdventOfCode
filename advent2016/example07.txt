@@ -1,0 +1,9 @@
+abba[mnop]qrst //yes
+abcd[bddb]xyyx //no
+aaaa[qwer]tyui //no
+ioxxoj[asdfgh]zxcvbn //yes
+unggjaqgvzrckyqx[llllagrmuioghea]qafuiwqpxcljhvf[tevtmuvcyqqrzvrduc]kqnaadyfxfyyzjuco //no
+nnmyoxtukxhrsgt[ecovrntpmkcaekonw]ncfzdxdlawbwtxqpkik[fkkkkxidubuatpihcnc]wqxmtvyakouvijt[tjvyhgempiufanh]bcibhdmbmbmmbyyi //yes
+ezmqplezxylckxcqjxn[pdzarngoyfbjgyxqxgt]yokricbfoocmehi[cffrwwrwhmilnyf]uaybztxphgccfuu //no
+unsmoewlzxuguuwu[dyqsnohyqcommmmov]jipyewobyjdzkgkgo[yphyanakgkgvybsx]pjtzynsvtltzzajc[iweuafprefmbuekk]rwelzzbkbqjwjrw //no
+jernxnsovguhkpljxce[twgyaawrcpjpnxp]rvjtstsecwlieaeblp[tihicijqmcrggggrjo]igcnuyrhtaooygb[ntscsypsxaeatyj]aslpawlvpctyjzwxhw //no
