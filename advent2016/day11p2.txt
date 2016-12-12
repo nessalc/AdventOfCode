@@ -1,0 +1,290 @@
+Upon entering the isolated containment area, however, you notice some extra parts on the first floor that weren't listed on the record outside:
+
+An elerium generator.
+An elerium-compatible microchip.
+A dilithium generator.
+A dilithium-compatible microchip.
+
+Elerium is generally "Element 115"; using *actual* element 115 (Moscovium) as a standin.
+The real substance, dilithium, is Li2; using this as symbol.
+
+F4	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
+F3	.	.	.	.	.	.	.	PmG	PmM	RuG	RuM	.	.	.	.
+F2	.	.	.	.	PuM	.	SrM	.	.	.	.	.	.	.	.
+F1	E	TmG	TmM	PuG	.	SrG	.	.	.	.	.	McG	McM	Li2G	Li2M
+
+F4	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
+F3	.	.	.	.	.	.	.	PmG	PmM	RuG	RuM	.	.	.	.
+F2	E	TmG	TmM	.	PuM	.	SrM	.	.	.	.	.	.	.	.
+F1	.	.	.	PuG	.	SrG	.	.	.	.	.	McG	McM	Li2G	Li2M
+
+F4	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
+F3	E	TmG	TmM	.	.	.	.	PmG	PmM	RuG	RuM	.	.	.	.
+F2	.	.	.	.	PuM	.	SrM	.	.	.	.	.	.	.	.
+F1	.	.	.	PuG	.	SrG	.	.	.	.	.	McG	McM	Li2G	Li2M
+
+F4	E	TmG	TmM	.	.	.	.	.	.	.	.	.	.	.	.
+F3	.	.	.	.	.	.	.	PmG	PmM	RuG	RuM	.	.	.	.
+F2	.	.	.	.	PuM	.	SrM	.	.	.	.	.	.	.	.
+F1	.	.	.	PuG	.	SrG	.	.	.	.	.	McG	McM	Li2G	Li2M
+
+F4	.	TmG	.	.	.	.	.	.	.	.	.	.	.	.	.
+F3	E	.	TmM	.	.	.	.	PmG	PmM	RuG	RuM	.	.	.	.
+F2	.	.	.	.	PuM	.	SrM	.	.	.	.	.	.	.	.
+F1	.	.	.	PuG	.	SrG	.	.	.	.	.	McG	McM	Li2G	Li2M
+
+F4	.	TmG	.	.	.	.	.	.	.	.	.	.	.	.	.
+F3	.	.	.	.	.	.	.	PmG	PmM	RuG	RuM	.	.	.	.
+F2	E	.	TmM	.	PuM	.	SrM	.	.	.	.	.	.	.	.
+F1	.	.	.	PuG	.	SrG	.	.	.	.	.	McG	McM	Li2G	Li2M
+
+F4	.	TmG	.	.	.	.	.	.	.	.	.	.	.	.	.
+F3	.	.	.	.	.	.	.	PmG	PmM	RuG	RuM	.	.	.	.
+F2	.	.	TmM	.	.	.	SrM	.	.	.	.	.	.	.	.
+F1	E	.	.	PuG	PuM	SrG	.	.	.	.	.	McG	McM	Li2G	Li2M
+
+F4	.	TmG	.	.	.	.	.	.	.	.	.	.	.	.	.
+F3	.	.	.	.	.	.	.	PmG	PmM	RuG	RuM	.	.	.	.
+F2	E	.	TmM	PuG	PuM	.	SrM	.	.	.	.	.	.	.	.
+F1	.	.	.	.	.	SrG	.	.	.	.	.	McG	McM	Li2G	Li2M
+
+F4	.	TmG	.	.	.	.	.	.	.	.	.	.	.	.	.
+F3	E	.	.	PuG	PuM	.	.	PmG	PmM	RuG	RuM	.	.	.	.
+F2	.	.	TmM	.	.	.	SrM	.	.	.	.	.	.	.	.
+F1	.	.	.	.	.	SrG	.	.	.	.	.	McG	McM	Li2G	Li2M
+
+F4	E	TmG	.	PuG	PuM	.	.	.	.	.	.	.	.	.	.
+F3	.	.	.	.	.	.	.	PmG	PmM	RuG	RuM	.	.	.	.
+F2	.	.	TmM	.	.	.	SrM	.	.	.	.	.	.	.	.
+F1	.	.	.	.	.	SrG	.	.	.	.	.	McG	McM	Li2G	Li2M
+
+F4	.	TmG	.	PuG	.	.	.	.	.	.	.	.	.	.	.
+F3	E	.	.	.	PuM	.	.	PmG	PmM	RuG	RuM	.	.	.	.
+F2	.	.	TmM	.	.	.	SrM	.	.	.	.	.	.	.	.
+F1	.	.	.	.	.	SrG	.	.	.	.	.	McG	McM	Li2G	Li2M
+
+F4	.	TmG	.	PuG	.	.	.	.	.	.	.	.	.	.	.
+F3	.	.	.	.	.	.	.	PmG	PmM	RuG	RuM	.	.	.	.
+F2	E	.	TmM	.	PuM	.	SrM	.	.	.	.	.	.	.	.
+F1	.	.	.	.	.	SrG	.	.	.	.	.	McG	McM	Li2G	Li2M
+
+F4	.	TmG	.	PuG	.	.	.	.	.	.	.	.	.	.	.
+F3	.	.	.	.	.	.	.	PmG	PmM	RuG	RuM	.	.	.	.
+F2	.	.	TmM	.	PuM	.	.	.	.	.	.	.	.	.	.
+F1	E	.	.	.	.	SrG	SrM	.	.	.	.	McG	McM	Li2G	Li2M
+
+F4	.	TmG	.	PuG	.	.	.	.	.	.	.	.	.	.	.
+F3	.	.	.	.	.	.	.	PmG	PmM	RuG	RuM	.	.	.	.
+F2	E	.	TmM	.	PuM	SrG	SrM	.	.	.	.	.	.	.	.
+F1	.	.	.	.	.	.	.	.	.	.	.	McG	McM	Li2G	Li2M
+
+F4	.	TmG	.	PuG	.	.	.	.	.	.	.	.	.	.	.
+F3	E	.	.	.	.	SrG	SrM	PmG	PmM	RuG	RuM	.	.	.	.
+F2	.	.	TmM	.	PuM	.	.	.	.	.	.	.	.	.	.
+F1	.	.	.	.	.	.	.	.	.	.	.	McG	McM	Li2G	Li2M
+
+F4	E	TmG	.	PuG	.	SrG	SrM	.	.	.	.	.	.	.	.
+F3	.	.	.	.	.	.	.	PmG	PmM	RuG	RuM	.	.	.	.
+F2	.	.	TmM	.	PuM	.	.	.	.	.	.	.	.	.	.
+F1	.	.	.	.	.	.	.	.	.	.	.	McG	McM	Li2G	Li2M
+
+F4	.	TmG	.	PuG	.	SrG	.	.	.	.	.	.	.	.	.
+F3	E	.	.	.	.	.	SrM	PmG	PmM	RuG	RuM	.	.	.	.
+F2	.	.	TmM	.	PuM	.	.	.	.	.	.	.	.	.	.
+F1	.	.	.	.	.	.	.	.	.	.	.	McG	McM	Li2G	Li2M
+
+F4	.	TmG	.	PuG	.	SrG	.	.	.	.	.	.	.	.	.
+F3	.	.	.	.	.	.	.	PmG	PmM	RuG	RuM	.	.	.	.
+F2	E	.	TmM	.	PuM	.	SrM	.	.	.	.	.	.	.	.
+F1	.	.	.	.	.	.	.	.	.	.	.	McG	McM	Li2G	Li2M
+
+F4	.	TmG	.	PuG	.	SrG	.	.	.	.	.	.	.	.	.
+F3	.	.	.	.	.	.	.	PmG	PmM	RuG	RuM	.	.	.	.
+F2	.	.	TmM	.	PuM	.	.	.	.	.	.	.	.	.	.
+F1	E	.	.	.	.	.	SrM	.	.	.	.	McG	McM	Li2G	Li2M
+
+F4	.	TmG	.	PuG	.	SrG	.	.	.	.	.	.	.	.	.
+F3	.	.	.	.	.	.	.	PmG	PmM	RuG	RuM	.	.	.	.
+F2	E	.	TmM	.	PuM	.	.	.	.	.	.	McG	McM	.	.
+F1	.	.	.	.	.	.	SrM	.	.	.	.	.	.	Li2G	Li2M
+
+F4	.	TmG	.	PuG	.	SrG	.	.	.	.	.	.	.	.	.
+F3	E	.	.	.	.	.	.	PmG	PmM	RuG	RuM	McG	McM	.	.
+F2	.	.	TmM	.	PuM	.	.	.	.	.	.	.	.	.	.
+F1	.	.	.	.	.	.	SrM	.	.	.	.	.	.	Li2G	Li2M
+
+F4	E	TmG	.	PuG	.	SrG	.	.	.	.	.	McG	McM	.	.
+F3	.	.	.	.	.	.	.	PmG	PmM	RuG	RuM	.	.	.	.
+F2	.	.	TmM	.	PuM	.	.	.	.	.	.	.	.	.	.
+F1	.	.	.	.	.	.	SrM	.	.	.	.	.	.	Li2G	Li2M
+
+F4	.	TmG	.	PuG	.	SrG	.	.	.	.	.	McG	.	.	.
+F3	E	.	.	.	.	.	.	PmG	PmM	RuG	RuM	.	McM	.	.
+F2	.	.	TmM	.	PuM	.	.	.	.	.	.	.	.	.	.
+F1	.	.	.	.	.	.	SrM	.	.	.	.	.	.	Li2G	Li2M
+
+F4	.	TmG	.	PuG	.	SrG	.	.	.	.	.	McG	.	.	.
+F3	.	.	.	.	.	.	.	PmG	PmM	RuG	RuM	.	.	.	.
+F2	E	.	TmM	.	PuM	.	.	.	.	.	.	.	McM	.	.
+F1	.	.	.	.	.	.	SrM	.	.	.	.	.	.	Li2G	Li2M
+
+F4	.	TmG	.	PuG	.	SrG	.	.	.	.	.	McG	.	.	.
+F3	.	.	.	.	.	.	.	PmG	PmM	RuG	RuM	.	.	.	.
+F2	.	.	TmM	.	PuM	.	.	.	.	.	.	.	.	.	.
+F1	E	.	.	.	.	.	SrM	.	.	.	.	.	McM	Li2G	Li2M
+
+F4	.	TmG	.	PuG	.	SrG	.	.	.	.	.	McG	.	.	.
+F3	.	.	.	.	.	.	.	PmG	PmM	RuG	RuM	.	.	.	.
+F2	E	.	TmM	.	PuM	.	.	.	.	.	.	.	.	Li2G	Li2M
+F1	.	.	.	.	.	.	SrM	.	.	.	.	.	McM	.	.
+
+F4	.	TmG	.	PuG	.	SrG	.	.	.	.	.	McG	.	.	.
+F3	E	.	.	.	.	.	.	PmG	PmM	RuG	RuM	.	.	Li2G	Li2M
+F2	.	.	TmM	.	PuM	.	.	.	.	.	.	.	.	.	.
+F1	.	.	.	.	.	.	SrM	.	.	.	.	.	McM	.	.
+
+F4	E	TmG	.	PuG	.	SrG	.	.	.	.	.	McG	.	Li2G	Li2M
+F3	.	.	.	.	.	.	.	PmG	PmM	RuG	RuM	.	.	.	.
+F2	.	.	TmM	.	PuM	.	.	.	.	.	.	.	.	.	.
+F1	.	.	.	.	.	.	SrM	.	.	.	.	.	McM	.	.
+
+F4	.	TmG	.	PuG	.	SrG	.	.	.	.	.	McG	.	Li2G	.
+F3	E	.	.	.	.	.	.	PmG	PmM	RuG	RuM	.	.	.	Li2M
+F2	.	.	TmM	.	PuM	.	.	.	.	.	.	.	.	.	.
+F1	.	.	.	.	.	.	SrM	.	.	.	.	.	McM	.	.
+
+F4	.	TmG	.	PuG	.	SrG	.	.	.	.	.	McG	.	Li2G	.
+F3	.	.	.	.	.	.	.	PmG	PmM	RuG	RuM	.	.	.	.
+F2	E	.	TmM	.	PuM	.	.	.	.	.	.	.	.	.	Li2M
+F1	.	.	.	.	.	.	SrM	.	.	.	.	.	McM	.	.
+
+F4	.	TmG	.	PuG	.	SrG	.	.	.	.	.	McG	.	Li2G	.
+F3	.	.	.	.	.	.	.	PmG	PmM	RuG	RuM	.	.	.	.
+F2	.	.	TmM	.	PuM	.	.	.	.	.	.	.	.	.	.
+F1	E	.	.	.	.	.	SrM	.	.	.	.	.	McM	.	Li2M
+
+F4	.	TmG	.	PuG	.	SrG	.	.	.	.	.	McG	.	Li2G	.
+F3	.	.	.	.	.	.	.	PmG	PmM	RuG	RuM	.	.	.	.
+F2	E	.	TmM	.	PuM	.	.	.	.	.	.	.	McM	.	Li2M
+F1	.	.	.	.	.	.	SrM	.	.	.	.	.	.	.	.
+
+F4	.	TmG	.	PuG	.	SrG	.	.	.	.	.	McG	.	Li2G	.
+F3	.	.	.	.	.	.	.	PmG	PmM	RuG	RuM	.	.	.	.
+F2	.	.	TmM	.	PuM	.	.	.	.	.	.	.	McM	.	.
+F1	E	.	.	.	.	.	SrM	.	.	.	.	.	.	.	Li2M
+
+F4	.	TmG	.	PuG	.	SrG	.	.	.	.	.	McG	.	Li2G	.
+F3	.	.	.	.	.	.	.	PmG	PmM	RuG	RuM	.	.	.	.
+F2	E	.	TmM	.	PuM	.	SrM	.	.	.	.	.	McM	.	Li2M
+F1	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
+
+F4	.	TmG	.	PuG	.	SrG	.	.	.	.	.	McG	.	Li2G	.
+F3	E	.	.	.	.	.	SrM	PmG	PmM	RuG	RuM	.	.	.	Li2M
+F2	.	.	TmM	.	PuM	.	.	.	.	.	.	.	McM	.	.
+F1	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
+
+F4	E	TmG	.	PuG	.	SrG	SrM	.	.	.	.	McG	.	Li2G	Li2M
+F3	.	.	.	.	.	.	.	PmG	PmM	RuG	RuM	.	.	.	.
+F2	.	.	TmM	.	PuM	.	.	.	.	.	.	.	McM	.	.
+F1	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
+
+F4	.	TmG	.	PuG	.	SrG	.	.	.	.	.	McG	.	Li2G	Li2M
+F3	E	.	.	.	.	.	SrM	PmG	PmM	RuG	RuM	.	.	.	.
+F2	.	.	TmM	.	PuM	.	.	.	.	.	.	.	McM	.	.
+F1	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
+
+F4	.	TmG	.	PuG	.	SrG	.	.	.	.	.	McG	.	Li2G	Li2M
+F3	.	.	.	.	.	.	.	PmG	PmM	RuG	RuM	.	.	.	.
+F2	E	.	TmM	.	PuM	.	SrM	.	.	.	.	.	McM	.	.
+F1	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
+
+F4	.	TmG	.	PuG	.	SrG	.	.	.	.	.	McG	.	Li2G	Li2M
+F3	E	.	.	.	.	.	SrM	PmG	PmM	RuG	RuM	.	McM	.	.
+F2	.	.	TmM	.	PuM	.	.	.	.	.	.	.	.	.	.
+F1	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
+
+F4	E	TmG	.	PuG	.	SrG	SrM	.	.	.	.	McG	McM	Li2G	Li2M
+F3	.	.	.	.	.	.	.	PmG	PmM	RuG	RuM	.	.	.	.
+F2	.	.	TmM	.	PuM	.	.	.	.	.	.	.	.	.	.
+F1	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
+
+F4	.	TmG	.	PuG	.	SrG	.	.	.	.	.	McG	McM	Li2G	Li2M
+F3	E	.	.	.	.	.	SrM	PmG	PmM	RuG	RuM	.	.	.	.
+F2	.	.	TmM	.	PuM	.	.	.	.	.	.	.	.	.	.
+F1	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
+
+F4	.	TmG	.	PuG	.	SrG	.	.	.	.	.	McG	McM	Li2G	Li2M
+F3	.	.	.	.	.	.	.	PmG	PmM	RuG	RuM	.	.	.	.
+F2	E	.	TmM	.	PuM	.	SrM	.	.	.	.	.	.	.	.
+F1	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
+
+F4	.	TmG	.	PuG	.	SrG	.	.	.	.	.	McG	McM	Li2G	Li2M
+F3	E	.	.	.	PuM	.	SrM	PmG	PmM	RuG	RuM	.	.	.	.
+F2	.	.	TmM	.	.	.	.	.	.	.	.	.	.	.	.
+F1	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
+
+F4	E	TmG	.	PuG	PuM	SrG	SrM	.	.	.	.	McG	McM	Li2G	Li2M
+F3	.	.	.	.	.	.	.	PmG	PmM	RuG	RuM	.	.	.	.
+F2	.	.	TmM	.	.	.	.	.	.	.	.	.	.	.	.
+F1	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
+
+F4	.	TmG	.	PuG	PuM	SrG	.	.	.	.	.	McG	McM	Li2G	Li2M
+F3	E	.	.	.	.	.	SrM	PmG	PmM	RuG	RuM	.	.	.	.
+F2	.	.	TmM	.	.	.	.	.	.	.	.	.	.	.	.
+F1	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
+
+F4	.	TmG	.	PuG	PuM	SrG	.	.	.	.	.	McG	McM	Li2G	Li2M
+F3	.	.	.	.	.	.	.	PmG	PmM	RuG	RuM	.	.	.	.
+F2	E	.	TmM	.	.	.	SrM	.	.	.	.	.	.	.	.
+F1	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
+
+F4	.	TmG	.	PuG	PuM	SrG	.	.	.	.	.	McG	McM	Li2G	Li2M
+F3	E	.	TmM	.	.	.	SrM	PmG	PmM	RuG	RuM	.	.	.	.
+F2	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
+F1	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
+
+F4	E	TmG	TmM	PuG	PuM	SrG	SrM	.	.	.	.	McG	McM	Li2G	Li2M
+F3	.	.	.	.	.	.	.	PmG	PmM	RuG	RuM	.	.	.	.
+F2	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
+F1	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
+
+F4	.	TmG	TmM	PuG	PuM	SrG	.	.	.	.	.	McG	McM	Li2G	Li2M
+F3	E	.	.	.	.	.	SrM	PmG	PmM	RuG	RuM	.	.	.	.
+F2	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
+F1	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
+
+F4	E	TmG	TmM	PuG	PuM	SrG	.	PmG	PmM	.	.	McG	McM	Li2G	Li2M
+F3	.	.	.	.	.	.	SrM	.	.	RuG	RuM	.	.	.	.
+F2	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
+F1	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
+
+F4	.	TmG	TmM	PuG	PuM	SrG	.	PmG	.	.	.	McG	McM	Li2G	Li2M
+F3	E	.	.	.	.	.	SrM	.	PmM	RuG	RuM	.	.	.	.
+F2	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
+F1	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
+
+F4	E	TmG	TmM	PuG	PuM	SrG	SrM	PmG	PmM	.	.	McG	McM	Li2G	Li2M
+F3	.	.	.	.	.	.	.	.	.	RuG	RuM	.	.	.	.
+F2	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
+F1	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
+
+F4	.	TmG	TmM	PuG	PuM	SrG	SrM	PmG	.	.	.	McG	McM	Li2G	Li2M
+F3	E	.	.	.	.	.	.	.	PmM	RuG	RuM	.	.	.	.
+F2	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
+F1	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
+
+F4	E	TmG	TmM	PuG	PuM	SrG	SrM	PmG	.	RuG	RuM	McG	McM	Li2G	Li2M
+F3	.	.	.	.	.	.	.	.	PmM	.	.	.	.	.	.
+F2	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
+F1	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
+
+F4	.	TmG	TmM	PuG	PuM	SrG	SrM	PmG	.	RuG	.	McG	McM	Li2G	Li2M
+F3	E	.	.	.	.	.	.	.	PmM	.	RuM	.	.	.	.
+F2	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
+F1	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
+
+F4	E	TmG	TmM	PuG	PuM	SrG	SrM	PmG	PmM	RuG	RuM	McG	McM	Li2G	Li2M
+F3	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
+F2	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
+F1	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
+

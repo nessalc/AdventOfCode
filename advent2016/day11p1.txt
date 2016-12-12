@@ -1,0 +1,171 @@
+The first floor contains a thulium generator, a thulium-compatible microchip, a plutonium generator, and a strontium generator.
+The second floor contains a plutonium-compatible microchip and a strontium-compatible microchip.
+The third floor contains a promethium generator, a promethium-compatible microchip, a ruthenium generator, and a ruthenium-compatible microchip.
+The fourth floor contains nothing relevant.
+
+Legend:
+Thulium: Tm
+Plutonium: Pu
+Strontium: Sr
+Ruthenium: Ru
+
+F4	.	.	.	.	.	.	.	.	.	.	.
+F3	.	.	.	.	.	.	.	PmG	PmM	RuG	RuM
+F2	.	.	.	.	PuM	.	SrM	.	.	.	.
+F1	E	TmG	TmM	PuG	.	SrG	.	.	.	.	.
+
+F4	.	.	.	.	.	.	.	.	.	.	.
+F3	.	.	.	.	.	.	.	PmG	PmM	RuG	RuM
+F2	E	TmG	TmM	.	PuM	.	SrM	.	.	.	.
+F1	.	.	.	PuG	.	SrG	.	.	.	.	.
+
+F4	.	.	.	.	.	.	.	.	.	.	.
+F3	E	TmG	TmM	.	.	.	.	PmG	PmM	RuG	RuM
+F2	.	.	.	.	PuM	.	SrM	.	.	.	.
+F1	.	.	.	PuG	.	SrG	.	.	.	.	.
+
+F4	E	TmG	TmM	.	.	.	.	.	.	.	.
+F3	.	.	.	.	.	.	.	PmG	PmM	RuG	RuM
+F2	.	.	.	.	PuM	.	SrM	.	.	.	.
+F1	.	.	.	PuG	.	SrG	.	.	.	.	.
+
+F4	.	TmG	.	.	.	.	.	.	.	.	.
+F3	E	.	TmM	.	.	.	.	PmG	PmM	RuG	RuM
+F2	.	.	.	.	PuM	.	SrM	.	.	.	.
+F1	.	.	.	PuG	.	SrG	.	.	.	.	.
+
+F4	.	TmG	.	.	.	.	.	.	.	.	.
+F3	.	.	.	.	.	.	.	PmG	PmM	RuG	RuM
+F2	E	.	TmM	.	PuM	.	SrM	.	.	.	.
+F1	.	.	.	PuG	.	SrG	.	.	.	.	.
+
+F4	.	TmG	.	.	.	.	.	.	.	.	.
+F3	.	.	.	.	.	.	.	PmG	PmM	RuG	RuM
+F2	.	.	TmM	.	.	.	SrM	.	.	.	.
+F1	E	.	.	PuG	PuM	SrG	.	.	.	.	.
+
+F4	.	TmG	.	.	.	.	.	.	.	.	.
+F3	.	.	.	.	.	.	.	PmG	PmM	RuG	RuM
+F2	E	.	TmM	PuG	PuM	.	SrM	.	.	.	.
+F1	.	.	.	.	.	SrG	.	.	.	.	.
+
+F4	.	TmG	.	.	.	.	.	.	.	.	.
+F3	E	.	.	PuG	PuM	.	.	PmG	PmM	RuG	RuM
+F2	.	.	TmM	.	.	.	SrM	.	.	.	.
+F1	.	.	.	.	.	SrG	.	.	.	.	.
+
+F4	E	TmG	.	PuG	PuM	.	.	.	.	.	.
+F3	.	.	.	.	.	.	.	PmG	PmM	RuG	RuM
+F2	.	.	TmM	.	.	.	SrM	.	.	.	.
+F1	.	.	.	.	.	SrG	.	.	.	.	.
+
+F4	.	TmG	.	PuG	.	.	.	.	.	.	.
+F3	E	.	.	.	PuM	.	.	PmG	PmM	RuG	RuM
+F2	.	.	TmM	.	.	.	SrM	.	.	.	.
+F1	.	.	.	.	.	SrG	.	.	.	.	.
+
+F4	.	TmG	.	PuG	.	.	.	.	.	.	.
+F3	.	.	.	.	.	.	.	PmG	PmM	RuG	RuM
+F2	E	.	TmM	.	PuM	.	SrM	.	.	.	.
+F1	.	.	.	.	.	SrG	.	.	.	.	.
+
+F4	.	TmG	.	PuG	.	.	.	.	.	.	.
+F3	.	.	.	.	.	.	.	PmG	PmM	RuG	RuM
+F2	.	.	TmM	.	PuM	.	.	.	.	.	.
+F1	E	.	.	.	.	SrG	SrM	.	.	.	.
+
+F4	.	TmG	.	PuG	.	.	.	.	.	.	.
+F3	.	.	.	.	.	.	.	PmG	PmM	RuG	RuM
+F2	E	.	TmM	.	PuM	SrG	SrM	.	.	.	.
+F1	.	.	.	.	.	.	.	.	.	.	.
+
+F4	.	TmG	.	PuG	.	.	.	.	.	.	.
+F3	E	.	.	.	.	SrG	SrM	PmG	PmM	RuG	RuM
+F2	.	.	TmM	.	PuM	.	.	.	.	.	.
+F1	.	.	.	.	.	.	.	.	.	.	.
+
+F4	E	TmG	.	PuG	.	SrG	SrM	.	.	.	.
+F3	.	.	.	.	.	.	.	PmG	PmM	RuG	RuM
+F2	.	.	TmM	.	PuM	.	.	.	.	.	.
+F1	.	.	.	.	.	.	.	.	.	.	.
+
+F4	.	TmG	.	PuG	.	SrG	.	.	.	.	.
+F3	E	.	.	.	.	.	SrM	PmG	PmM	RuG	RuM
+F2	.	.	TmM	.	PuM	.	.	.	.	.	.
+F1	.	.	.	.	.	.	.	.	.	.	.
+
+F4	.	TmG	.	PuG	.	SrG	.	.	.	.	.
+F3	.	.	.	.	.	.	.	PmG	PmM	RuG	RuM
+F2	E	.	TmM	.	PuM	.	SrM	.	.	.	.
+F1	.	.	.	.	.	.	.	.	.	.	.
+
+F4	.	TmG	.	PuG	.	SrG	.	.	.	.	.
+F3	E	.	TmM	.	PuM	.	.	PmG	PmM	RuG	RuM
+F2	.	.	.	.	.	.	SrM	.	.	.	.
+F1	.	.	.	.	.	.	.	.	.	.	.
+
+F4	E	TmG	TmM	PuG	PuM	SrG	.	.	.	.	.
+F3	.	.	.	.	.	.	.	PmG	PmM	RuG	RuM
+F2	.	.	.	.	.	.	SrM	.	.	.	.
+F1	.	.	.	.	.	.	.	.	.	.	.
+
+F4	.	TmG	TmM	PuG	.	SrG	.	.	.	.	.
+F3	E	.	.	.	PuM	.	.	PmG	PmM	RuG	RuM
+F2	.	.	.	.	.	.	SrM	.	.	.	.
+F1	.	.	.	.	.	.	.	.	.	.	.
+
+F4	.	TmG	TmM	PuG	.	SrG	.	.	.	.	.
+F3	.	.	.	.	.	.	.	PmG	PmM	RuG	RuM
+F2	E	.	.	.	PuM	.	SrM	.	.	.	.
+F1	.	.	.	.	.	.	.	.	.	.	.
+
+F4	.	TmG	TmM	PuG	.	SrG	.	.	.	.	.
+F3	E	.	.	.	PuM	.	SrM	PmG	PmM	RuG	RuM
+F2	.	.	.	.	.	.	.	.	.	.	.
+F1	.	.	.	.	.	.	.	.	.	.	.
+
+F4	E	TmG	TmM	PuG	PuM	SrG	SrM	.	.	.	.
+F3	.	.	.	.		.	.	PmG	PmM	RuG	RuM
+F2	.	.	.	.	.	.	.	.	.	.	.
+F1	.	.	.	.	.	.	.	.	.	.	.
+
+F4	.	TmG	TmM	PuG	PuM	SrG	.	.	.	.	.
+F3	E	.	.	.		.	SrM	PmG	PmM	RuG	RuM
+F2	.	.	.	.	.	.	.	.	.	.	.
+F1	.	.	.	.	.	.	.	.	.	.	.
+
+F4	E	TmG	TmM	PuG	PuM	SrG	SrM	.	PmM	.	.
+F3	.	.	.	.		.	.	PmG	.	RuG	RuM
+F2	.	.	.	.	.	.	.	.	.	.	.
+F1	.	.	.	.	.	.	.	.	.	.	.
+
+F4	.	TmG	TmM	PuG	PuM	SrG	SrM	.	.	.	.
+F3	E	.	.	.		.	.	PmG	PmM	RuG	RuM
+F2	.	.	.	.	.	.	.	.	.	.	.
+F1	.	.	.	.	.	.	.	.	.	.	.
+
+F4	E	TmG	TmM	PuG	PuM	SrG	SrM	PmG	PmM	.	.
+F3	.	.	.	.		.	.	.	.	RuG	RuM
+F2	.	.	.	.	.	.	.	.	.	.	.
+F1	.	.	.	.	.	.	.	.	.	.	.
+
+F4	.	TmG	TmM	PuG	PuM	SrG	SrM	PmG	.	.	.
+F3	E	.	.	.		.	.	.	PmM	RuG	RuM
+F2	.	.	.	.	.	.	.	.	.	.	.
+F1	.	.	.	.	.	.	.	.	.	.	.
+
+F4	E	TmG	TmM	PuG	PuM	SrG	SrM	PmG	PmM	.	RuM
+F3	.	.	.	.		.	.	.	.	RuG	.
+F2	.	.	.	.	.	.	.	.	.	.	.
+F1	.	.	.	.	.	.	.	.	.	.	.
+
+F4	.	TmG	TmM	PuG	PuM	SrG	SrM	PmG	PmM	.	.
+F3	E	.	.	.		.	.	.	.	RuG	RuM
+F2	.	.	.	.	.	.	.	.	.	.	.
+F1	.	.	.	.	.	.	.	.	.	.	.
+
+F4	E	TmG	TmM	PuG	PuM	SrG	SrM	PmG	PmM	RuG	RuM
+F3	.	.	.	.		.	.	.	.	.	.
+F2	.	.	.	.	.	.	.	.	.	.	.
+F1	.	.	.	.	.	.	.	.	.	.	.
+
