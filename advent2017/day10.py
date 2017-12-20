@@ -29,14 +29,6 @@ def algorithm(twlist,lengths,index=0,skip_size=0):
         skip_size+=1
     return twlist,index,skip_size
 
-def full(inputstring):
-    twlist=list(range(256))
-    i=s=0
-    lengths=[ord(c) for c in inputstring]+[17,31,73,47,23]
-    for i in range(64):
-        twlist,i,s=algorithm(twlist,lengths,i,s)
-    return twlist
-
 def gethashstring(twlist):
     result=[reduce(xor,twlist[16*i:16*i+16]) for i in range(16)]
     hashstring=''
@@ -61,5 +53,8 @@ if __name__=='__main__':
     twlist,i,s=algorithm(list(range(256)),lengths)
     print('Check: {}'.format(twlist[0]*twlist[1]))
     #Part 2
-    #tests
-    unittest.main()
+    lengths=[ord(c) for c in inputstring]+[17,31,73,47,23]
+    lengths*=64
+    twlist,i,s=algorithm(list(range(256)),lengths)
+    print('Knot Hash: {}'.format(gethashstring(twlist)))
+    #unittest.main()
