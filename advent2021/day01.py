@@ -6,7 +6,7 @@ from typing import Iterable, Optional
 import sys
 
 
-def sliding_window(data: Iterable, window_size: int = 1) -> tuple:
+def sliding_window(data: Iterable, window_size: int = 1) -> Iterable:
     window = deque(islice(data, window_size), maxlen=window_size)
     if len(window) == window_size:
         yield tuple(window)
