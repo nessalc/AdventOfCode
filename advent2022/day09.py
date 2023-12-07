@@ -1,148 +1,62 @@
 from dataclasses import dataclass
-import numpy as np
 
 @dataclass
 class Point:
     x:int=0
     y:int=0
-    def __sub__(self,other):
-        return Point(self.x-other.x,self.y-other.y)
-    def __add__(self,other):
-        return Point(self.x+other.x,self.y+other.y)
-    def distance(self,other):
-        return (abs(other.x-self.x)*abs(other.x-self.x)+\
-                abs(other.y-self.y)*abs(other.y-self.y))**0.5
-    def normal(self,other):
-        return abs(other.x-self.x)*abs(other.x-self.x)+\
-               abs(other.y-self.y)*abs(other.y-self.y)
 
-class Rope:
-    def __init__(self,name='H',knot=None):
-        self.H=Point()
-        self.T=Point()
-        self.tail_collection=set([(self.T.x,self.T.y)])
-        self.name=name
-        self.knot=knot
-    def tail_follow(self):
-        if self.H.y-self.T.y==1 and \
-           self.H.x-self.T.x==2:
-            self.T.x+=1
-            self.T.y+=1
-        elif self.T.y-self.H.y==1 and \
-           self.H.x-self.T.x==2:
-            self.T.x+=1
-            self.T.y-=1
-        elif self.H.y-self.T.y==1 and \
-           self.T.x-self.H.x==2:
-            self.T.x-=1
-            self.T.y+=1
-        elif self.T.y-self.H.y==1 and \
-           self.T.x-self.H.x==2:
-            self.T.x-=1
-            self.T.y-=1
-        elif self.H.x-self.T.x==1 and \
-           self.H.y-self.T.y==2:
-            self.T.x+=1
-            self.T.y+=1
-        elif self.T.x-self.H.x==1 and \
-           self.H.y-self.T.y==2:
-            self.T.x-=1
-            self.T.y+=1
-        elif self.H.x-self.T.x==1 and \
-           self.T.y-self.H.y==2:
-            self.T.x+=1
-            self.T.y-=1
-        elif self.T.x-self.H.x==1 and \
-           self.T.y-self.H.y==2:
-            self.T.x-=1
-            self.T.y-=1
-        elif self.H.x-self.T.x>1:
-            self.T.x+=1
-        elif self.T.x-self.H.x>1:
-            self.T.x-=1
-        elif self.H.y-self.T.y>1:
-            self.T.y+=1
-        elif self.T.y-self.H.y>1:
-            self.T.y-=1
-        self.tail_collection.add((self.T.x,self.T.y))
-        if self.knot:
-            self.knot.step_to_position(self.T.x,self.T.y)
-    def step_right(self):
-        self.H.x+=1
-        self.tail_follow()
-    def step_left(self):
-        self.H.x-=1
-        self.tail_follow()
-    def step_up(self):
-        self.H.y+=1
-        self.tail_follow()
-    def step_down(self):
-        self.H.y-=1
-        self.tail_follow()
-    def __repr__(self):
-        return f'<Rope name:{self.name} H:{self.H}, T:{self.T}>'
-    def move_right(self,steps):
-        for i in range(steps):
-            self.step_right()
-    def move_left(self,steps):
-        for i in range(steps):
-            self.step_left()
-    def move_up(self,steps):
-        for i in range(steps):
-            self.step_up()
-    def move_down(self,steps):
-        for i in range(steps):
-            self.step_down()
-    def step_to_position(self,x,y):
-        if x>self.H.x and y==self.H.y:
-            print(self,'right')
-            self.step_right()
-        elif y>self.H.y and x==self.H.x:
-            print(self,'up')
-            self.step_up()
-        elif x<self.H.x and y==self.H.y:
-            print(self,'left')
-            self.step_left()
-        elif y<self.H.y and x==self.H.x:
-            print(self,'down')
-            self.step_down()
-        elif x>self.H.x and y>self.H.y:
-            print(self,'up/right')
-            self.H.x+=1
-            self.H.y+=1
-            self.tail_follow()
-        elif x>self.H.x and y<self.H.y:
-            print(self,'down/right')
-            self.H.x+=1
-            self.H.y-=1
-            self.tail_follow()
-        elif x<self.H.x and y>self.H.y:
-            print(self,'up/left')
-            self.H.x-=1
-            self.H.y+=1
-            self.tail_follow()
-        elif x<self.H.x and y<self.H.y:
-            print(self,'down/left')
-            self.H.x-=1
-            self.H.y-=1
-            self.tail_follow()
+    @property
+    def pos(self):
+        return self.x,self.y
 
-r=Rope('H')
+def sign(x):
+    if x<0:
+        return -1
+    return 1
+
+class Head(Point):
+    def move(self,direction):
+        match direction:
+            case 'U':
+                self.y+=1
+            case 'D':
+                self.y-=1
+            case 'L':
+                self.x-=1
+            case 'R':
+                self.x+=1
+
+class Tail(Point):
+    def __init__(self):
+        super().__init__()
+        self.history=set()
+    def follow(self,pos):
+        x,y=pos
+        dist_x=x-self.x
+        dist_y=y-self.y
+        if abs(dist_x)==2 and dist_y==0:
+            self.x+=sign(dist_x)
+        elif abs(dist_y)==2 and dist_x==0:
+            self.y+=sign(dist_y)
+        elif (abs(dist_y)==2 and abs(dist_x)) or (abs(dist_x)==2 and abs(dist_y)):
+            self.x+=sign(dist_x)
+            self.y+=sign(dist_x)
+        self.history.add(self.pos)
+
+head=Head()
+tail=Tail()
+
 with open('input09.txt') as f:
-    directions=f.readlines()
-for d,s in map(lambda x:x.strip().split(' '),directions):
-    if d=='R':
-        r.move_right(int(s))
-    elif d=='D':
-        r.move_down(int(s))
-    elif d=='L':
-        r.move_left(int(s))
-    elif d=='U':
-        r.move_up(int(s))
-    else:
-        raise ValueError('something is wrong with the input!')
+    directions=f.read().splitlines()
 
-part1=len(r.tail_collection)
+for direction in directions:
+    d,s=direction.split()
+    #print(direction)
+    for i in range(int(s)):
+        head.move(d)
+        tail.follow(head.pos)
+        #print(head.pos,tail.pos)
+part1=len(tail.history)
 part2=None
 
 print(f'Part 1: {part1}\nPart 2: {part2}')

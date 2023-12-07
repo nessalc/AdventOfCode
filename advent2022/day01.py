@@ -3,3 +3,5 @@ with open('input01.txt') as f:
 
 part1=max(map(sum,cals))
 part2=sum(sorted(map(sum,cals))[-3:])
+
+print(f'Part 1: {part1}\nPart 2: {part2}')
