@@ -131,7 +131,7 @@ if __name__ == '__main__':
             if s % 100000 == 0:
                 print('.', end='')
         print(f'\nlowest so far: {minimum}')
-        logging.info(f'\nlowest so far: {minimum}')
+        logging.info(f'lowest so far: {minimum}')
         now = perf_counter()
         print(f'time elapsed: {now-start}s')
     part2 = minimum
