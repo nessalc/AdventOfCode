@@ -1,2 +1,4 @@
 virtualenv
 .vscode
+**/*.txt
+**/*.log
