@@ -55,9 +55,6 @@ nodes = dict()
 for node in node_list:
     nodes[node[0:3]] = Node(node[7:10], node[12:15])
 
-current = 'AAA'
-end = 'ZZZ'
-
 
 def count_steps(current: str, instructions: str, endfn: Callable) -> int:
     steps = 0
@@ -74,7 +71,7 @@ def count_steps(current: str, instructions: str, endfn: Callable) -> int:
     return steps
 
 
-part1 = count_steps(current, instructions, lambda x: x == 'ZZZ')
+part1 = count_steps('AAA', instructions, lambda x: x == 'ZZZ')
 print(f'{part1=}')
 logging.info(f'{part1=}')
 
