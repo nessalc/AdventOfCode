@@ -1,7 +1,6 @@
 from itertools import pairwise, accumulate
 from operator import add
 from typing import Iterable
-from pprint import pprint
 
 with open('input09.txt', encoding='utf-8') as fp:
     all_input = fp.read()
